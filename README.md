@@ -6,7 +6,7 @@ Repro for `workbox-webpack-plugin@5.0.0-rc.0` breaking HMR.
    yarn start
    ```
 
-1. Visit dev server at http://localhost:3000
+1. Visit dev server at http://localhost:8080
 
 1. Make a change in `main.js` e.g. change the title
 
