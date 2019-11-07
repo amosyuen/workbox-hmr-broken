@@ -1,4 +1,4 @@
-Repro for `workbox-webpack-plugin@5.0.0-rc.0` breaking HMR.
+Repro for `workbox-webpack-plugin@5.0.0-rc.0` breaking wepack iterative builds.
 
 1. Start dev server with:
 
@@ -8,9 +8,9 @@ Repro for `workbox-webpack-plugin@5.0.0-rc.0` breaking HMR.
 
 1. Visit dev server at http://localhost:8080
 
-1. Make a change in `main.js` e.g. change the title
+1. Make a change in `app/main.js` e.g. change `title` -> `title2`
 
-1. Notice that it doesn't update
+1. Notice that website doesn't update
 
 1. Do a hard refresh Ctrl+R, and it still doesn't refresh
 
